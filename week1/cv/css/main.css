@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    margin: 0%;
+}
+.container {
+    margin: 0% 2%;
+    padding: 0% 1%;
+}
+.cv-head {
+    padding-left: 5%;
+    background-color: rgb(255, 255, 255);
+    /* padding: 2%; */
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.header-title {
+    padding: 3px;
+    flex-grow: 2;
+}
+
+.header-profile {
+    padding: 3px;
+    flex-grow: 1;
+}
+.cv-body{
+    padding-left: 3%;
+    /* background-color: beige; */
+    /* position: relative; */
+    padding-top: 15%;
+    display: flex;
+    width: 100%;
+}
+.avatar {
+    margin-top: 25px;
+    padding-right: 20%;
+}
+.avatar img {
+    width: 80px;
+    border-radius: 50%;
+}
+.left-side {
+    /* width: 70ch; */
+    /* padding: 2px; */
+    /* position: absolute; */
+    flex-grow: 4;
+}
+.right-side {
+    color: rgb(124, 133, 141);
+    flex-grow: 2;
+}
+.nice-date {
+    color: rgb(124, 133, 141);
+}
+.float-left {
+    /* float: left; */
+}
+.float-right {
+    /* float: right; */
+}
+.experience {
+    /* padding: 10px; */
+}
+.skills {
+    /* padding: 10px; */
+}
